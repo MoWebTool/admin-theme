@@ -45,3 +45,5 @@ $ git pull origin default
 编辑 path/to/theme/default/scss/index.scss
 
 在 path/to/theme/default/scss/app 中放置其它以“_”开头的业务 scss 文件
+
+原则：业务相关代码，存放在 app 目录中；其它代码按模块存放在 mod 目录中
