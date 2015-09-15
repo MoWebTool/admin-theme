@@ -179,6 +179,12 @@
   }
 }
 
+.iconfont-classification {
+  &:before {
+    content: '\e64b';
+  }
+}
+
 .iconfont-activity {
   &:before {
     content: '\e648';
