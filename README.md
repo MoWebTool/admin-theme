@@ -1,12 +1,3 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
-HERE
-IS
-DEFAULT
-THEME
-=======
->>>>>>> 45af2c8b5909d920c6dc057b3245f488e9af8b98
 # Admin Themes
 
 ## 分支
@@ -56,7 +47,3 @@ $ git pull origin default
 在 path/to/theme/default/scss/app 中放置其它以“_”开头的业务 scss 文件
 
 原则：业务相关代码，存放在 app 目录中；其它代码按模块存放在 mod 目录中
-<<<<<<< HEAD
-=======
->>>>>>> aeb36439f99de8aafb9b12faade6f4ea9d4466b7
->>>>>>> 45af2c8b5909d920c6dc057b3245f488e9af8b98
