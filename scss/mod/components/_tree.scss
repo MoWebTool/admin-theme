@@ -202,10 +202,14 @@
 .ui-tree-checkable {
   .choose {
     display: inline-block;
+    border-radius: 50%;
   }
 }
 
 .ui-tree-multiple {
+  .choose{
+    border-radius: 0;
+  }
   .checked {
     > .choose {
       &:before {
