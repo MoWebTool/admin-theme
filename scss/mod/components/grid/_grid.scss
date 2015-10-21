@@ -16,7 +16,36 @@
     }
 
     thead th {
+      cursor: default;
       border-bottom-width: 2px;
+    }
+
+    [data-sort] {
+      cursor: default;
+
+      &:after {
+        content: '\e654';
+        font-family: 'iconfont';
+        font-style: normal;
+        font-size: 120%;
+        font-weight: normal;
+        margin-left: 0.3em;
+        color: darken($white, 30);
+      }
+    }
+
+    [data-sort="asc"] {
+      &:after {
+        content: '\e652';
+        color: darken($white, 60);
+      }
+    }
+
+    [data-sort="desc"] {
+      &:after {
+        content: '\e653';
+        color: darken($white, 60);
+      }
     }
 
     tr:nth-child(even) td {
