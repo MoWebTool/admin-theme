@@ -208,6 +208,12 @@
   &:hover {
     background-color: grayscale($orange);
   }
+  
+  &[disabled] {
+    color: grayscale($orange);
+    background-color: lighten(grayscale($orange), 10);
+    cursor: no-drop;
+  }
 }
 
 .ui-form-element-invisible {
